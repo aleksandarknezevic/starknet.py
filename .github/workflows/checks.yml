@@ -301,10 +301,6 @@ jobs:
         run: |
           poetry run poe circular_imports_check
 
-
-      - name: Debug
-        run: |
-          echo "SEPOLIA_RPC_URL: $SEPOLIA_RPC_URL"
       - name: Run tests
         run: |
           poetry run poe test_ci_on_networks
