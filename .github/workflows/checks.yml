@@ -242,7 +242,7 @@ jobs:
           poetry run coverage xml
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
 
   # ---------------------------------------------------------- #
   # ..................RUN-TESTS-ON-NETWORKS................... #
@@ -310,7 +310,7 @@ jobs:
           poetry run coverage xml
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
 
   # ---------------------------------------------------------- #
   # ....................RUN-TESTS-WINDOWS..................... #
@@ -393,7 +393,7 @@ jobs:
           poetry run coverage xml
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
 
   # ---------------------------------------------------------- #
   # .....................RUN-DOCS-TESTS....................... #
@@ -456,7 +456,7 @@ jobs:
           poetry run coverage xml
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
 
   # ---------------------------------------------------------- #
   # .................RUN-DOCS-TESTS-WINDOWS................... #
@@ -534,4 +534,4 @@ jobs:
           poetry run coverage xml
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
